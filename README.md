@@ -1,7 +1,7 @@
  
 
-
-> Open this page at [https://pancake-and-syrup.github.io/maze-hunt/](https://pancake-and-syrup.github.io/maze-hunt/)
+Pancake and Syrup are stuck in a mysterious land. Can you help get them out of this maze?
+> Play the game at [https://pancake-and-syrup.github.io/maze-hunt/](https://pancake-and-syrup.github.io/maze-hunt/)
 
 ## Use as Extension
 

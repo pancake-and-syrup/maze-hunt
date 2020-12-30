@@ -62,8 +62,8 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleInsignia, func
         `, [myTiles.transparency16,sprites.castle.tilePath5,sprites.castle.tileDarkGrass3], TileScale.Sixteen))
 })
 scene.setBackgroundColor(9)
-game.splash("game galaxy presents ")
-game.splash("pancake and syrup")
+game.splash("maze hunt ")
+game.splash("by pancake and syrup")
 let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
@@ -104,18 +104,18 @@ tiles.setTilemap(tiles.createTilemap(hex`100010000101010101010101010101010101010
 scene.cameraFollowSprite(mySprite)
 let mySprite2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
-    . . . . . . 8 8 8 . . . . . . . 
-    . . . . . . 8 9 8 . . . . . . . 
-    . . . . . . 8 9 8 . . . . . . . 
-    . . . . . 8 8 9 8 8 . . . . . . 
-    . . . . 8 f f f f f 8 . . . . . 
-    . . . . 8 1 9 1 9 1 8 . . . . . 
-    . . . . 8 f f f f f 8 . . . . . 
-    . f . . 8 e e e e e 8 . . . f . 
-    . . f f 8 e e f f e 8 f f f . . 
-    . f . . 8 e e e e e 8 . . . f . 
-    . . . . 8 f f f f f 8 . . . . . 
-    . . . . 8 8 8 8 8 8 8 . . . . . 
+    . . . . . . f f f . . . . . . . 
+    . . . . . . f e f . . . . . . . 
+    . . . . . . f e f . . . . . . . 
+    . . . . . f f e f f . . . . . . 
+    . . . . f f f f f f f . . . . . 
+    . . . . f e e e e e f . . . . . 
+    . . . . f e f e e f f . . . . . 
+    . f . . f e e e e e f . . . f . 
+    . . f f f e e f f e f f f f . . 
+    . f . . f e e e e e f . . . f . 
+    . . . . f e e e e e f . . . . . 
+    . . . . f f f f f f f . . . . . 
     . . . . . . f . . f . . . . . . 
     . . . . . . f . . f . . . . . . 
     . . . . . f f . . f f . . . . . 
